@@ -54,8 +54,13 @@ var player = new clpp.Player('video', { license: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUz
             url: '    url: 'https://kamalsingh29.github.io/adobelaunch/SampleVideo_1280x720_1mb.mp4',
             name: 'Tears of Steel', // Will be reported as asset name by the integration
             duration: '100'
-        },
-        conviva: {
+	},
+          drm: {
+        	customData: {
+    	           userId: 'purchase'
+		}
+    	  },
+          conviva: {
             customerKey: '2b7c637964bded3629e188dbd9a6be90803eefaa',
             serviceUrl: 'https://telstra-test.testonly.conviva.com',
             viewerId: 'KDS',
