@@ -57,16 +57,6 @@
   function toggle() {
     document.getElementById('elem').classList.toggle('hidden');
   }
-  
-  function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "http://medrx.telstra.com.au/online.php", true);
-  xhttp.send();
 }
 </script>
 </head>
@@ -89,10 +79,6 @@
 		<a href="adbinapp://cancel">
 			<button class="button-noThanks">No thanks</button>
 		</a>
-	</div>
-	<div id="demo">
-  		<h2>Let AJAX change this text</h2>
-  		<button type="button" onclick="loadDoc()">Change Content</button>
 	</div>
 </div>
 </body>
