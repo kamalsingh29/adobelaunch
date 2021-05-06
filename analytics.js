@@ -324,7 +324,7 @@ s.Media.trackMilestones="25,50,75";
 s.Media.segmentByMilestones=true;
 s.Media.trackWhilePlaying=true;
 s.Media.trackUsingContextData=true;
-s.Media.trackVars="events,prop1,prop2,prop3,prop4,channel,eVar1,eVar2,eVar3,eVar4,eVar5,eVar63,eVar64,contextData.channelname,contextData.classification,contextData.collection,contextData.contentprovider,contextData.contenttitle,contextData.aspectratio,contextData.site,contextData.drmprotected,contextData.videoURL,contextData.pageName";
+s.Media.trackVars="events,prop1,prop2,prop3,prop4,channel,eVar1,eVar2,eVar3,eVar4,eVar5,eVar63,eVar64,contextData.channelname,contextData.classification,contextData.collection,contextData.contentprovider,contextData.contenttitle,contextData.aspectratio,contextData.site,contextData.drmprotected,contextData.videoURL,contextData.pageName,contextData.tmAdReq,contextData.tmAdPlay";
 s.Media.trackEvents="event56,event57,event58";
 s.Media.contextDataMapping = {
     "a.media.milestones":{
